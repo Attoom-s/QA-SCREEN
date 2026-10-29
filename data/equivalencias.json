@@ -1,0 +1,6 @@
+[
+    { "field": "Nombre de Usuario", "valid": "Texto alfanumérico sin espacios (3-20 chars)", "invalid": "Vacío, <3 chars, >20 chars, caracteres especiales", "rep": "'cliente1', 'a', ''", "expected": "Aceptar 'cliente1', rechazar los demás con error." },
+    { "field": "Contraseña", "valid": "String >= 6 caracteres", "invalid": "Vacío, <6 caracteres", "rep": "'pass123', '12345'", "expected": "Permitir 'pass123', bloquear '12345'." },
+    { "field": "Texto de Búsqueda", "valid": "Texto libre (1-100 chars)", "invalid": "Campo Vacío, Inyección HTML/SQL", "rep": "'Laptop', '<b>test</b>'", "expected": "Sanitizar HTML y buscar 'Laptop'." },
+    { "field": "Categoría", "valid": "Opción de combo ('Todos', 'Tecnología', 'Libros')", "invalid": "Valor no perteneciente a la lista", "rep": "'Tecnología', 'HackCategory'", "expected": "Aceptar 'Tecnología', por defecto 'Todos'." }
+]

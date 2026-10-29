@@ -1,0 +1,13 @@
+{
+    "admin": {
+        "password": "1234",
+        "nombre": "Tester Lead (Admin)",
+        "rol": "ADMIN"
+    },
+    "tester_qa": {
+        "password": "test2026",
+        "nombre": "QA Automation Tester",
+        "rol": "CLIENTE",
+        "fechaRegistro": "2026-10-22 22:25:04"
+    }
+}

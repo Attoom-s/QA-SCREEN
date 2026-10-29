@@ -1,0 +1,8 @@
+[
+    { "name": "Diseño de casos de prueba", "excelente": "Todos los casos bien documentados y justificados", "bueno": "La mayoría bien documentados", "regular": "Algunos casos documentados", "deficiente": "Incompletos o ausentes", "selected": 5 },
+    { "name": "Aplicación de técnicas", "excelente": "Aplica correctamente caja negra y caja blanca", "bueno": "Aplica la mayoría correctamente", "regular": "Aplica parcialmente", "deficiente": "No aplica correctamente", "selected": 5 },
+    { "name": "Cobertura de pruebas", "excelente": "Alcanza >90% de cobertura", "bueno": "Alcanza 70-90%", "regular": "Alcanza 50-70%", "deficiente": "<50%", "selected": 5 },
+    { "name": "Uso de herramientas", "excelente": "Domina herramientas de test", "bueno": "Usa la mayoría", "regular": "Usa algunas", "deficiente": "No usa herramientas", "selected": 5 },
+    { "name": "Documentación", "excelente": "Completa, clara y organizada", "bueno": "Completa pero poco clara", "regular": "Incompleta", "deficiente": "Ausente", "selected": 5 },
+    { "name": "Presentación final", "excelente": "Excelente comunicación y dominio", "bueno": "Buena comunicación", "regular": "Comunicación regular", "deficiente": "Deficiente", "selected": 5 }
+]

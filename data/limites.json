@@ -1,0 +1,5 @@
+[
+    { "field": "Longitud Nombre Usuario", "range": "3 - 20 chars", "min": "3", "max": "20", "testValues": "2 (inv), 3 (val), 4 (val), 19 (val), 20 (val), 21 (inv)", "expected": "Rechazar 2 y 21. Aceptar 3, 4, 19, 20." },
+    { "field": "Filtros Activos Búsqueda", "range": "1 - 5 filtros", "min": "1", "max": "5", "testValues": "0 (sin filtro), 1 (min val), 5 (max val), 6 (overflow)", "expected": "0 exige query. 6 limita a máximo 5." },
+    { "field": "Respuestas por página", "range": "1 - 50 registros", "min": "1", "max": "50", "testValues": "0, 1, 50, 51", "expected": "Paginar de 1 a 50 máximo." }
+]

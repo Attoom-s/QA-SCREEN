@@ -1,0 +1,28 @@
+[
+    {
+        "id": "BUG-001",
+        "date": "24/10/2026",
+        "title": "Timeout no controlado al desconectar servicio",
+        "module": "client.php",
+        "severity": "Alta",
+        "priority": "Media",
+        "status": "Cerrado",
+        "steps": "1. Cortar red, 2. Buscar",
+        "expected": "Mensaje de error amigable",
+        "obtained": "Fatal Error",
+        "assigned": "Equipo QA"
+    },
+    {
+        "id": "BUG-002",
+        "date": "24/10/2026",
+        "title": "Caracteres especiales rompen historial.json",
+        "module": "historial.php",
+        "severity": "Media",
+        "priority": "Baja",
+        "status": "Cerrado",
+        "steps": "1. Buscar con comillas, 2. Ver historial",
+        "expected": "Escapar comillas JSON",
+        "obtained": "JSON Syntax Error",
+        "assigned": "Equipo QA"
+    }
+]
